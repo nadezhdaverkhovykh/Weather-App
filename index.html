@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather forecast</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="./script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./src/icon_weather32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./src/icon_weather16.png"
+    />
+  </head>
+  <body>
+    <div class="main_wrapper">
+      <form class="form">
+        <button class="search_button">
+          <img src="./src/icons/search.png" alt="Кнопка поиска" />
+        </button>
+        <input
+          type="text"
+          class="input"
+          placeholder="Search for your preffered city..."
+        />
+      </form>
+      <div class="card_wrapper">
+        <form class="geo_form">
+          <button class="geo_button">
+            <img
+              src="./src/icons/current location icon.png"
+              alt="Кнопка геолокации"
+            />
+          </button>
+          <input
+            type="text"
+            class="input_location"
+            placeholder="Current Location"
+          />
+        </form>
+        <div class="weather_card">
+          <p class="city">Moscow</p>
+          <p class="current_date">Thursday, 31 Aug</p>
+          <p class="current_temperature">24°C</p>
+          <img
+            class="weather_icon"
+            src="./src/icons/clear.png"
+            alt="Состояние погоды"
+            width="270px"
+            height="270px"
+          />
+          <p class="current_condition">Sunny</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

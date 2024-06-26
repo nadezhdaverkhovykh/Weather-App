@@ -1,0 +1,107 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins";
+  box-sizing: border-box;
+}
+
+.main_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(./src/icons/background.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.form,
+.geo_form {
+  position: relative;
+}
+.search_button {
+  position: absolute;
+  left: 16px;
+  bottom: 10px;
+  border: transparent;
+  background-color: transparent;
+}
+.geo_button {
+  position: absolute;
+  left: 16px;
+  bottom: 10px;
+  border: transparent;
+  background-color: transparent;
+}
+.card_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.input {
+  margin-top: 81px;
+  width: 506px;
+  height: 62px;
+  border-radius: 40px;
+  border: transparent;
+  background-color: #ffffff38;
+  font-size: 18px;
+  text-align: center;
+}
+
+.input_location {
+  margin-top: 19px;
+  width: 292px;
+  height: 62px;
+  border-radius: 40px;
+  border: transparent;
+  font-size: 22px;
+  font-weight: 700;
+  background-color: #ffffff38;
+  padding-left: 10px;
+  text-align: center;
+}
+.input_location ::placeholder {
+  color: black;
+}
+
+input::placeholder {
+  color: black;
+}
+
+.card_wrapper {
+  margin-top: 45px;
+  width: 497px;
+  height: 688px;
+  border-radius: 30px;
+  backdrop-filter: blur(3px);
+  background-color: #ffffff38;
+}
+
+.weather_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.city {
+  margin-top: 37px;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.current_date {
+  font-size: 20px;
+}
+
+.current_temperature {
+  font-size: 80px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.current_condition {
+  font-size: 32px;
+  font-weight: 700;
+}
