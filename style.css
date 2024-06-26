@@ -15,8 +15,7 @@
   background-size: cover;
   background-position: center;
 }
-.form,
-.geo_form {
+.form {
   position: relative;
 }
 .search_button {
@@ -27,11 +26,18 @@
   background-color: transparent;
 }
 .geo_button {
-  position: absolute;
-  left: 16px;
-  bottom: 10px;
-  border: transparent;
+  display: flex;
+  gap: 5px;
+  margin-top: 18px;
+  max-width: 292px;
+  max-height: 62px;
+  border-radius: 40px;
+  border: grey, 2px, solid;
   background-color: transparent;
+  font-size: 22px;
+  font-weight: 800;
+  line-height: 33px;
+  text-align: center;
 }
 .card_wrapper {
   display: flex;
@@ -46,7 +52,7 @@
   border: transparent;
   background-color: #ffffff38;
   font-size: 18px;
-  text-align: center;
+  padding-left: 60px;
 }
 
 .input_location {
@@ -67,6 +73,7 @@
 
 input::placeholder {
   color: black;
+  text-align: center;
 }
 
 .card_wrapper {
@@ -82,17 +89,19 @@ input::placeholder {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .city {
   margin-top: 37px;
   font-weight: 700;
   font-size: 36px;
+  text-align: center;
 }
 
 .current_date {
   font-size: 20px;
+  text-align: center;
 }
 
 .current_temperature {
@@ -104,4 +113,5 @@ input::placeholder {
 .current_condition {
   font-size: 32px;
   font-weight: 700;
+  text-align: center;
 }
