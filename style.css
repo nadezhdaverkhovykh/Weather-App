@@ -85,6 +85,10 @@ input::placeholder {
   background-color: #ffffff38;
 }
 
+.image_div {
+  display: flex;
+  justify-content: center;
+}
 .weather_card {
   display: flex;
   flex-direction: column;
